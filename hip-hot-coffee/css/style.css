@@ -1,0 +1,41 @@
+body {
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   background-color: White;
+   color: #7c4a32;
+   border-style: dashed;
+   border-color: black;
+}
+main img {
+   height: 10%;
+}
+
+nav li {
+   display: inline-block;
+   }
+
+nav img {
+   width: 20%;
+}
+nav a {
+   margin: 5px;
+   color: #7c4a32;
+}
+
+header h1 {
+   color: white;
+   background: url(https://cdn.pixabay.com/photo/2016/04/12/11/19/coffee-1324126__480.jpg);
+}
+
+
+body img {
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   width: 40%;
+ }
+
+ /* Links - change color on hover */
+nav a:hover {
+   background-color: #ddd;
+   color: black;
+ }
