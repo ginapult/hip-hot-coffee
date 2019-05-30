@@ -20,14 +20,14 @@ if (hourNow > 18) {
   greeting = 'Welcome!';
 }
 
-var special = 'Today\'s special:';
+var special = '<p>Today\'s special!</p>';
 var weekday = new Date();
 var thisDay = weekday.getDay();
 var promotion;
 if (thisDay === 1,3,5) {
-  promotion = special + ' Fresh, delicious blueberry scones!';
+  promotion = special + '<h1>Fresh, delicious blueberry scones!</h1>';
 } else if (thisDay === 2,4,6) {
-  promotion = special + ' Hot, delicious 16 oz latte!';
+  promotion = special + 'Hot, delicious 16 oz latte!';
 }else {
   promotion = 'We are closed today. We look forward to seeing you tomorrow!';
 }
